@@ -1,0 +1,55 @@
+.payment-tracking {
+  background: linear-gradient(135deg, #f1f3f5, #f8f9fa);
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 25px 0;
+}
+
+.payment-tracking h2 {
+  color: #2c3e50;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.payment-tracking ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.payment-tracking li {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.3s;
+}
+
+.payment-tracking li:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.payment-tracking span {
+  color: #495057;
+  font-size: 1rem;
+}
+
+.payment-tracking button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 15px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.payment-tracking button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
